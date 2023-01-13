@@ -1,0 +1,8 @@
+
+const ActionType={
+  WX_FORM_INIT:'WX_FORM_INIT',
+  CHANGE_WX_FORM_SHOW:'CHANGE_WX_FORM_SHOW',
+  CHANGE_WX_FORM_VALUE:'CHANGE_WX_FORM_VALUE'
+}
+
+export default ActionType;

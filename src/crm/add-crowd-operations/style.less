@@ -1,0 +1,409 @@
+.add-crowd-operations {
+  .flex-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+  }
+
+  .trigger-input {
+    width: 25%;
+    margin: 0 10px;
+  }
+
+  .inline-item {
+    width: 50%;
+  }
+
+  .send-sms {
+    display: flex;
+    align-items: center;
+    padding-left: 35px;
+    margin: 16px 0;
+
+    .sms {
+      border: solid 1px #dedede;
+      width: 300px;
+      padding: 0 12px 12px 12px;
+      margin-right: 12px;
+
+      .info {
+        margin-bottom: 10px;
+      }
+
+      .setting {
+        width: 100%;
+      }
+    }
+  }
+
+  .btn {
+    margin-right: 10px;
+  }
+
+  .ant-form-item {
+    margin-bottom: 16px;
+  }
+
+  .ant-calendar-picker {
+    width: 100%;
+  }
+
+  .sub-title {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.02);
+    margin-bottom: 16px;
+
+    &::before {
+      margin-right: 10px;
+      content: '';
+      display: inline-block;
+      width: 2px;
+
+      height: 18px;
+      background-color: #f56c1d;
+    }
+  }
+
+  .footer {
+    padding-top: 16px;
+    border-top: solid 1px #e6e6e6;
+  }
+
+  .inline {
+    display: inline-flex;
+
+    & > div {
+      flex: 1;
+    }
+  }
+
+  .sms-content {
+    position: relative;
+
+    .context {
+      padding: 5px;
+      background-color: #f5f5f5;
+      border-radius: 5px;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      min-height: 52px;
+      margin-right: 10px;
+    }
+
+    .cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      color: #fff;
+      align-items: center;
+      justify-content: center;
+      display: none;
+      cursor: pointer;
+    }
+
+    .app-push {
+      background-color: #f5f5f5;
+      display: flex;
+      align-items: center;
+      padding-right: 5px;
+      width: 100%;
+      max-height: 52px;
+      border-radius: 5px;
+    }
+
+    .app-push-con {
+      display: flex;
+      flex-direction: column;
+      min-width: 220px;
+    }
+
+    .app-push-title {
+      display: block;
+      font-size: 14px;
+      min-width: 220px;
+      overflow: hidden;
+      margin-right: 10px;
+      padding-left: 5px;
+      word-break: keep-all;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .app-push-context {
+      display: block;
+      font-size: 12px;
+      min-width: 220px;
+      padding: 5px;
+      margin-right: 10px;
+      word-break: keep-all;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .app-push-img {
+      width: 40px;
+      height: 40px;
+      border-radius: 4px;
+    }
+  }
+
+  .sms-content:hover {
+    .cover {
+      display: flex;
+    }
+  }
+}
+
+.send-setting {
+  display: flex;
+  margin: 20px 0;
+
+  .left-show {
+    width: 262px;
+    padding: 20px 30px 20px 10px;
+    border: 1px solid #eee;
+
+    .sms {
+      word-break: break-all;
+      display: inline-block;
+      background-color: #eee;
+      max-width: 220px;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 6px;
+    }
+  }
+
+  .right-form {
+    border: 1px solid #eee;
+    margin-left: 10px;
+  }
+
+  .send-form {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #eee;
+    margin-left: 15px;
+
+    .inline-item {
+      display: flex;
+      justify-content: space-between;
+
+      .choose-sign {
+        width: 41%;
+      }
+
+      .choose-modal {
+        padding-left: 5px;
+      }
+    }
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+
+      .word-number {
+        color: #999;
+      }
+    }
+
+    .rember {
+      color: #999;
+      font-size: 12px;
+    }
+
+    .ant-form-item {
+      margin-bottom: 10px;
+    }
+
+    .receive {
+      padding: 10px 0;
+
+      .label {
+        text-align: right;
+        color: rgba(0, 0, 0, 0.85);
+        padding-right: 5px;
+
+        &::before {
+          content: '*';
+          display: inline-block;
+          margin-right: 4px;
+          font-family: SimSun;
+          font-size: 14px;
+          color: #f5222d;
+        }
+      }
+    }
+
+    .num {
+      color: #f56c1d;
+    }
+
+    .inline {
+      display: flex;
+    }
+  }
+}
+
+.app-push-form {
+  display: flex;
+  margin: 20px 0;
+
+  .left-show {
+    width: 312px;
+    min-width: 312px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    padding: 24px;
+
+    .sms {
+      font-size: 14px;
+      color: #333;
+      word-break: break-word;
+      margin-bottom: 10px;
+    }
+
+    .se-header {
+      color: #999;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+        margin-right: 8px;
+      }
+    }
+
+    .send-preview {
+      width: 100%;
+      background-color: #fff;
+      border-radius: 4px;
+      padding: 12px;
+      font-size: 12px;
+      margin-bottom: 24px;
+
+      .se-title {
+        font-size: 14px;
+        width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .se-spec {
+        overflow: hidden;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+      }
+    }
+
+    .se-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .se-left {
+      width: 200px;
+    }
+
+    .send-preview-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      img {
+        min-width: 40px;
+        border-radius: 4px;
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .send-form {
+    width: 100%;
+    padding: 24px;
+    border-radius: 4px;
+    background-color: #fafafa;
+    margin-left: 24px;
+
+    .inline-item {
+      display: flex;
+      justify-content: space-between;
+
+      .choose-sign {
+        width: 41%;
+      }
+
+      .choose-modal {
+        padding-left: 5px;
+      }
+    }
+
+    .info {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+
+      .word-number {
+        color: #999;
+      }
+    }
+
+    .rember {
+      color: #999;
+      font-size: 12px;
+    }
+
+    .ant-form-item {
+      margin-bottom: 10px;
+    }
+
+    .receive {
+      padding: 10px 0;
+
+      .label {
+        text-align: right;
+        color: rgba(0, 0, 0, 0.85);
+        padding-right: 5px;
+
+        &::before {
+          content: '*';
+          display: inline-block;
+          margin-right: 4px;
+          font-family: SimSun;
+          font-size: 14px;
+          color: #f5222d;
+        }
+      }
+    }
+
+    .num {
+      color: #f56c1d;
+    }
+
+    .inline {
+      display: flex;
+    }
+  }
+}

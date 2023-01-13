@@ -1,0 +1,113 @@
+.chart {
+  position: relative;
+  margin-top: 24px;
+
+  .back-chart {
+    .item {
+      display: flex;
+      align-items: center;
+      width: calc(100% - 150px);
+      height: 76px;
+      padding: 24px;
+      margin-bottom: 1px;
+      display: flex;
+
+      .title {
+        font-size: 12px;
+        color: rgba(0, 0, 0, 0.4);
+      }
+
+      .num {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.8);
+      }
+    }
+
+    .cover {
+      background-color: #e5f0ff;
+    }
+
+    .notice {
+      background-color: #f3f7fd;
+    }
+
+    .visitor {
+      background-color: #f0f8f0;
+    }
+
+    .pay {
+      background-color: #fffbf4;
+    }
+
+    .icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 12px;
+    }
+  }
+
+  .funnel {
+    position: absolute;
+    top: 0;
+    right: 30px;
+
+    &-img {
+      width: 242px;
+      height: 228px;
+    }
+
+    .titles {
+      color: #fff;
+      position: absolute;
+      top: 0;
+      left: 50px;
+
+      p {
+        line-height: 76px;
+        text-align: center;
+      }
+    }
+
+    &-title:nth-child(2) {
+      top: 100px;
+      left: 50px;
+    }
+
+    &-title:nth-child(3) {
+      top: 175px;
+      left: 50px;
+    }
+
+    &-change {
+      width: 60px;
+
+      .label {
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 12px;
+      }
+
+      .number {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 14px;
+      }
+    }
+
+    .first {
+      position: absolute;
+      left: 183px;
+      top: 56px;
+    }
+
+    .next {
+      position: absolute;
+      left: 173px;
+      top: 133px;
+    }
+
+    .end {
+      position: absolute;
+      left: 240px;
+      top: 95px;
+    }
+  }
+}

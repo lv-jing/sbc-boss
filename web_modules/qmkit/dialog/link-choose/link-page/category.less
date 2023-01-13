@@ -1,0 +1,48 @@
+.classification-content {
+  height: 275px;
+  margin: 0 auto;
+  background: #f7f7f7;
+  padding: 10px 20px;
+  .currently-selected {
+    height: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .selected-box {
+    border: 1px solid #ddd;
+    background: #fff;
+    height: 220px;
+    .category {
+      border-right: 1px solid #ddd;
+      padding: 5px;
+      height: 218px;
+      ul {
+        padding: 10px 0;
+        height: 180px;
+        overflow: auto;
+        li {
+          padding: 0 0 5px 10px;
+          font-size: 12px;
+          color: #666;
+          position: relative;
+          height: 25px;
+          line-height: 25px;
+          .text {
+            width: 150px;
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            cursor: pointer;
+          }
+        }
+        li:hover {
+          background-color: #f2f6fc;
+        }
+        .page_p_active {
+          background: #f7f7f7;
+        }
+      }
+    }
+  }
+}

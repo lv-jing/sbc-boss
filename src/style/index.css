@@ -1,0 +1,52 @@
+/* 全局覆盖antd左对齐 */
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td,
+.ant-table-self tbody td {
+  text-align: left;
+}
+
+/* 覆盖面包屑颜色 */
+#root .ant-layout .ant-breadcrumb {
+  height: 40px;
+  padding: 10px 0 0 24px;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+/* 全局表格表头颜色 */
+#root .ant-table-thead > tr > th {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.operation-box {
+  text-align: right;
+}
+
+.operation-box a {
+  padding-left: 8px;
+}
+/* antd的tab样式 */
+#root .ant-tabs-nav .ant-tabs-tab-active {
+  color: #f56c1d;
+  background: rgba(245, 108, 29, 0.06);
+  border-radius: 4px 4px 0 0;
+}
+
+#root .ant-tabs-bar {
+  /* margin-top: 16px; */
+}
+
+#root .ant-tabs-nav .ant-tabs-tab {
+  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 12px 18px;
+}
+
+#root .ant-alert-info {
+  margin-bottom: 16px;
+}
+
+.ant-alert-message {
+  color: #333;
+}
